@@ -1,6 +1,7 @@
-var utils = {};
+import string from './src/string'
+import number from './src/number'
 
-utils.string = require('./src/string');
-utils.number = require('./src/number');
-
-module.exports = utils;
+export {
+  string,
+  number
+}
